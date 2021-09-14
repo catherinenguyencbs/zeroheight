@@ -1,13 +1,13 @@
 // CSS Variables.
 :root {
-	--blue-60: #004ace;
-	--blue-70: #0036b5;
-	--white: #fff;
-    --colors-button-primary-background: $blue-60;
-	--colors-button-primary-background-hover: $blue-70;
-	--colors-button-primary-text: $white;
-	--weight-bold: 700;
-	--spacing-50: 8px;
-	--spacing-75: 12px;
-	--spacing-300: 48px;
+    --blue-60: #004ace;
+    --blue-70: #0036b5;
+    --white: #fff;
+    --colors-button-primary-background: var(--blue-60);
+    --colors-button-primary-background-hover: var(--blue-70);
+    --colors-button-primary-text: var(--white);
+    --weight-bold: 700;
+    --spacing-50: 8px;
+    --spacing-75: 12px;
+    --spacing-300: 48px;
 }
